@@ -1,0 +1,54 @@
+
+.BookContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  *{
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .mainTitle {
+    opacity: 1;
+    color: #242A37;
+    font-size: 30px;
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto 0 0;
+  }
+
+  span {
+    opacity: 1;
+    color: #000000;
+    font-family: Avenir-Black;
+    font-size: 24px;
+    text-align: right;
+    float: right;
+  }
+
+  button {
+    opacity: 1;
+    color: #FFFFFF;
+    border-radius: 30px;
+    background-color: #F78D3A;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    padding: 0.8vw;
+    width: 120px;
+    cursor: pointer;
+    margin-left: 3%;
+    float: right;
+    margin-top: -10px;
+  }
+  @media (max-width: 900px) {
+    flex-direction: column;
+    button{
+      margin: 14px 0;
+    }
+    .mainTitle{
+      margin: 14px 0;
+    }
+  }
+}

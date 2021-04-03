@@ -1,0 +1,23 @@
+
+.FooterContainer{
+
+  .footer {
+    background: #F78D3A;
+    padding: 5px 0;
+     p {
+      font-size: 14px;
+      color:#FFFFFF;
+      font-family:Avenir-Roman;
+      text-align: center;
+    }
+     a {
+      color: #608dfd;
+    }
+     a:hover {
+      border-bottom: 2px solid #608dfd;
+    }
+
+  }
+
+
+}

@@ -1,0 +1,50 @@
+.headerContainer{
+  .title{
+      opacity:1;
+      color:#000000;
+      font-family:Avenir-Book;
+      font-size:14px;
+      text-align:left;
+  }
+
+  .contents{
+    *{
+      display:inline-block;
+      font-weight: bold;
+    }
+
+    .mainTitle{
+      opacity:1;
+      color:#242A37;
+      font-size:30px;
+      text-align:left;
+      display: inline-block;
+      margin: 0;
+    }
+    span{
+      opacity:1;
+      color:#000000;
+      font-family:Avenir-Black;
+      font-size:24px;
+      text-align:right;
+      float: right;
+    }
+    button{
+      opacity:1;
+      color:#FFFFFF;
+      border-radius: 30px;
+      background-color: #F78D3A;
+      border: none;
+      text-align: center;
+      font-size: 15px;
+      padding: 0.8vw;
+      width: 120px;
+      cursor: pointer;
+      margin-left:3%;
+      float: right;
+      margin-top: -10px;
+    }
+
+  }
+
+}

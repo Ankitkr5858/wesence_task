@@ -1,0 +1,28 @@
+.Main{
+
+    padding: 37px 6% 34px 6%;
+    background: #F5F5F5;
+
+  .dateCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 1000px) {
+      flex-direction: column;
+    }
+  }
+
+  .bookMain{
+    margin-top: 54px;
+    span{
+      margin-left: auto;
+    }
+  }
+  @media (max-width: 900px) {
+    .bookMain{
+      span{
+        margin-left: unset;
+      }
+    }
+  }
+}

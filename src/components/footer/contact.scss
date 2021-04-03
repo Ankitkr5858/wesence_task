@@ -1,0 +1,144 @@
+
+.contact {
+  padding: 30px 8% 30px 10%;
+  background: #1077A6;
+  color: rgba(255, 255, 255, .75);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+
+  .section-title {
+    margin-bottom: 40px;
+  }
+
+  .section-title p {
+    font-size: 16px;
+  }
+
+  h2 {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+
+  .section-title h2::after {
+    position: absolute;
+    content: "";
+    background: rgba(255, 255, 255, .3);
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    left: 30px;
+  }
+
+  h3 {
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    font-weight: 400;
+  }
+
+  form {
+    padding-top: 20px;
+  }
+
+  .text-danger {
+    color: #cc0033;
+    text-align: left;
+  }
+
+  .btn-custom {
+    margin: 30px 0;
+    background: transparent;
+    border: 2px solid #fff;
+  }
+
+  .btn-custom:hover {
+    color: #1f386e;
+    background: #fff;
+  }
+
+  @media(max-width: 800px) {
+    padding: 20px 0px;
+  }
+
+  .form-control:focus {
+    border-color: #999;
+    outline: 0;
+    -webkit-box-shadow: transparent;
+    box-shadow: transparent;
+  }
+
+
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #444;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+
+  .form-control:focus {
+    border-color: #999;
+    outline: 0;
+    -webkit-box-shadow: transparent;
+    box-shadow: transparent;
+  }
+
+  .contact-item {
+    margin: 20px 0;
+  }
+
+  .contact-item span {
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .contact-item i.fa {
+    margin-right: 10px;
+  }
+
+
+  .link {
+    display: inline-block;
+    margin-right: 4%;
+    font-size: 14px;
+  }
+
+  .socialLinks {
+    float: right;
+    margin-left: auto;
+    .item {
+      color: #FFFFFF;
+      font-family: Avenir-Roman;
+      font-size: 16px;
+      display: inline-block;
+      margin-left: 45px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    .link {
+      margin-right: 0;
+      margin-bottom: 14px;
+    }
+    .socialLinks {
+      margin-left: unset;
+    }
+  }
+}
